@@ -14,8 +14,43 @@ class DashboardView extends StatefulWidget {
         actions: const [],
       ),
       body: ListView(
-        children: const [
-          //body
+        scrollDirection: Axis.horizontal,
+        children: [
+          Container(
+            width: 150,
+            height: 100,
+            color: Colors.amber,
+          ),
+          Container(
+            width: 100,
+            height: 100,
+            color: Colors.blue,
+          ),
+          Container(
+            width: 100,
+            height: 100,
+            color: Colors.green,
+          ),
+          Container(
+            width: 100,
+            height: 100,
+            color: Colors.red,
+          ),
+          Container(
+            width: 100,
+            height: 100,
+            color: Colors.amber,
+          ),
+          Container(
+            width: 100,
+            height: 100,
+            color: Colors.blue,
+          ),
+          Container(
+            width: 100,
+            height: 100,
+            color: Colors.green,
+          )
         ],
       ),
     );

@@ -5,7 +5,7 @@ import 'core.dart';
 void main() async {
   await initialize();
 
-  Widget mainView = const IncrementView();
+  Widget mainView = const DashboardView();
 
   runApp(
     MaterialApp(
@@ -19,3 +19,4 @@ void main() async {
     ),
   );
 }
+// C:\Users\Hp\AppData\Local\Android\Sdk
